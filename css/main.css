@@ -1,0 +1,76 @@
+body {
+  background: black;
+}
+
+.preloader {
+  position: absolute;
+  top:0%;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+  z-index: 10;
+}
+
+.circulo {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background: blue;
+  z-index: 120;
+  top: 40%;
+}
+
+.circulo:first-child{
+  left: 40%;
+  background: #F4D03F;
+}
+.circulo:nth-child(2){
+  left: 45%;
+  background: #2ECC71;
+}
+.circulo:nth-child(3){
+  left: 50%;
+  background: #E74C3C;
+}
+.circulo:last-child{
+  left: 55%;
+  background: #AF7AC5;
+}
+
+.square {
+  background: #48C9B0;
+  width: 100px;
+  height: 100px;
+  /*display: inline-block;*/
+  position: absolute;
+  margin: 20px;
+  z-index: 4;
+}
+
+.square:first-child {
+  left: 12%;
+  top: 35%;
+}
+.square:nth-child(2) {
+  left: 45%;
+  top: 18%;
+}
+.square:nth-child(3) {
+  /*left: 500px;*/
+  right: 10%;
+  top: 28%;
+}
+.square:nth-child(4) {
+  right: 40%;
+  bottom: 20%;
+}
+.square:nth-child(5) {
+  left: 15%;
+  bottom: 30%;
+}
+.square:last-child {
+  right: 20%;
+  bottom: 30%;
+}
